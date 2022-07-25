@@ -24,7 +24,7 @@ while loopend == False:
     except:
         print("\n!! Please input only whole numbers !!\n")
 
-# btaining the complexity
+# Obtaining the complexity
 loopend = False
 while loopend == False:
     try:
