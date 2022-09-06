@@ -3,6 +3,9 @@ class Password:
         self.length = length
         self.complexity = complexity
         self.content = content
+        
+def PassLength(x):
+    return int(input(x))
 
 randomChar = {
     '0' : '1' '2' '3' '4' '5' '6' '7' '8' '9' '0',
